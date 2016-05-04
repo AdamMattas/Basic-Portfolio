@@ -81,9 +81,20 @@ p{
 
 .navigation-links{
 	float: right;
-	margin-left: 25px;
-	margin-top: 25px;
+	margin-left: 22px;
+	margin-top: 30px;
 	color: #777777;
+	line-height: 15px;
+}
+
+.navigation-links-border{
+	float: right;
+	padding-left: 22px;
+	padding-right: 22px;
+	margin-top: 30px;
+	color: #777777;
+	border-right: 1px solid #dddddd;
+	line-height: 15px;
 }
 
 .logo{
@@ -109,18 +120,18 @@ p{
 .panel-right{
 	float: left;
 	width: 270px;
-	height: 185px;
+	height: 100%;
 	background-color: #ffffff;
 	padding: 0px 25px 25px 25px;
 	border-bottom: 1px solid #cccccc;
 }
 
 .panel-left-content{
-	border-top: 1px solid #cccccc;
+	border-top: 2px solid #dddddd;
 }
 
 .panel-right-content{
-	border-top: 1px solid #cccccc;
+	border-top: 1px solid #dddddd;
 }
 
 .bio-pic{
@@ -146,6 +157,11 @@ p{
 	width: 66px;
 	height: 66px;
 	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.h2-social{
+	margin-bottom: 10px;
 }
 
 .footer-wrapper{
