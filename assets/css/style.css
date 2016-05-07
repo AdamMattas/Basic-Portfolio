@@ -82,25 +82,25 @@ p{
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	border-top: 1px solid #cccccc;
+	border-top: 3px solid #cccccc;
 }
 
 .main-content-wrapper{	
 	width: 960px;
 	margin: 0 auto;
-	padding-top: 25px;
+	padding-top: 40px;
 }
 
 .portfolio-content-body{
 	background: url("../images/white_carbon.png");
 	background-repeat: repeat;
-	border-top: 1px solid #cccccc;
+	border-top: 3px solid #cccccc;
 }
 
 .portfolio-content-wrapper{
 	width: 960px;
 	margin: 0 auto;
-	padding-top: 25px;
+	padding-top: 40px;
 }
 
 .content{
@@ -156,8 +156,8 @@ p{
 	background-color: #ffffff;
 	padding: 0px 25px 25px 25px;
 	margin-right: 40px;
-	margin-bottom: 25px;
-	border-bottom: 1px solid #cccccc;
+	margin-bottom: 40px;
+	border: 1px solid #cccccc;
 }
 
 .panel-right{
@@ -166,7 +166,7 @@ p{
 	height: 100%;
 	background-color: #ffffff;
 	padding: 0px 25px 35px 25px;
-	border-bottom: 1px solid #cccccc;
+	border: 1px solid #cccccc;
 }
 
 .panel-left-content{
@@ -249,6 +249,10 @@ p{
 	padding-top: 5px;
 }
 
+.no-bottom-margin{
+	margin-bottom: 0px;
+}
+
 .form-div{
 	margin-top: 15px;
 }
@@ -279,14 +283,14 @@ p{
 	float: left;
 	height: 220px;
 	width: 279px;
-	margin: 35px 40px 0px 0px;
+	margin: 35px 40px 15px 0px;
 }
 
 .image-box-right{
 	float: left;
 	height: 220px;
 	width: 279px;
-	margin: 35px 0px 0px 0px;
+	margin: 35px 0px 15px 0px;
 }
 
 .image-portfolio{
